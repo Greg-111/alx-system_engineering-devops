@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -e "$(( $DECIMAL ))" | awk '{printf("%X\n", $1)}'
